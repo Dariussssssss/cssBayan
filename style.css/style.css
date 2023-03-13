@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .2rem;
+    line-height: 1.5;
     background: rgba(238, 238, 238, 1.00);
     color: #00458dff;
 }
