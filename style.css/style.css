@@ -34,6 +34,8 @@ li {
 
 label {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
@@ -69,7 +71,7 @@ label {
 
     input:checked ~ .item {
         opacity: 1;
-        height: 60vh;
+        height: 50vh;
     }
 
     input:checked ~ .item-checked > .icon {
@@ -90,7 +92,7 @@ label {
     input:checked ~ .item,
     input:hover ~ .item {
         opacity: 1;
-        height: 60vh;
+        height: 50vh;
     }
 
     input:checked ~ .item-checked > .icon,
