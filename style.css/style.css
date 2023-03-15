@@ -4,6 +4,7 @@ body {
     line-height: 1.5;
     background: rgba(238, 238, 238, 1.00);
     color: #00458dff;
+    overflow-y: scroll;
 }
 
 .container {
@@ -11,7 +12,6 @@ body {
     margin: 0 auto;
     max-width: 80%;
     font-weight: bold;
-    scrollbar-gutter: auto;
 }
 
 h1 {
